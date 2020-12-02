@@ -17,7 +17,8 @@ body{
 	margin:auto;
 	height:500px;
 	background-image:url("../images/ss/11.webp");
-	animation: slide 40s infinite;
+	/*background-size: contain;*/
+	animation: slide 35s infinite;
 	/*animation-duration:40s;
 	animation-iteration-count: infinite;*/
 	/*animation-timing-function:ease-out;*/
@@ -167,7 +168,7 @@ nav ul li:hover{
 	border: 0.5px solid black;
 	display:flex;
 	width:100%;
-	height:30%;
+	/*height:30%;*/
 	justify-content:center;
 	align-items: center;
 	flex-wrap:wrap;
@@ -292,12 +293,13 @@ nav ul li:hover{
 	margin:5px 0px 0px 30px ;
 	padding:7px;
 	font-size:1.5rem;
+	font-weight:normal;
 }
 .section1 .filter .f2{
 	border-bottom:0.8px solid #999;
 }
 .section1 .filter input{
-	margin:0px 5px 10px 40px;
+	margin:auto;
 	width:80%;
 }
 
@@ -395,26 +397,6 @@ nav ul li:hover{
 	100% {background:url("../images/ss/15.jpg");
 	background-size: contain;}
 }
-/*#ss{
-	width:75%;
-	margin:auto;
-	height:500px;
-	background-image:url("../images/ss/11.webp");
-	animation: slide 40s infinite;*/
-	/*animation-duration:40s;
-	animation-iteration-count: infinite;*/
-	/*animation-timing-function:ease-out;*/
-	/*animation-delay:3s;*/
-/*}
-@keyframes slide{*/
-	/*from{background-color: red;}
-	to{background-color: yellow	}*/
-	/*0%   {background-image:url("assets/images/furniture/1.jpg");}*/
-	/*25% {background:url("../images/ss/7.webp");}
-	50% {background:url("../images/ss/8.webp");}
-	75% {background:url("../images/ss/9.webp");}
-	100% {background:url("../images/ss/10.webp");}
-	}*/
 	.dress{
 		display:flex;
 		flex-direction:column;
@@ -444,6 +426,7 @@ padding:5px;
 background:#dcdcdc;
 text-decoration: none;
 color:#1877F2;
+font-weight: bold;
 }
 .all .dress #atc{
 	text-decoration: none;
@@ -586,7 +569,7 @@ h3{
 	display:flex;
 	margin:auto;
 	width:90%;
-	height:30%;
+	/*height:30%;*/
 	justify-content:center;
 	align-items: center;
 	flex-wrap:wrap;
@@ -601,7 +584,7 @@ h3{
 	flex-direction: column;
 	border-radius: 15px;
 	width: 280px;
-	height: 180px;
+	/*height: 180px;*/
 	box-shadow: 0 0 10px #abc;
 	border: 0.5px solid green;
 	margin: 10px;
@@ -780,10 +763,12 @@ h1{
 	padding:20px;
 }
 .cart_item img{
-	width:150px;
+	/*border:2px solid yellow;*/
+	width:140px;
 	height:200px;
 }
 #crt{
+	/*border:2px solid blue;*/
 	display: flex;
 	flex-direction:row;
 	flex-wrap:wrap;
@@ -821,13 +806,13 @@ h1{
 	margin:20px;
 }
 .cart3{
-	/*border:1px solid black;*/
 	width:60%;
 	/*margin:auto;*/
 	display: flex;
 	flex-direction:column;
 	flex-wrap:wrap;
 	border-right:1.5px solid #999;
+	/*border:4px solid red;*/
 }
 .cart3 h2{
 	padding:15px 0 5px 15px;
