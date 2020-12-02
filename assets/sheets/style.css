@@ -17,7 +17,7 @@ body{
 	margin:auto;
 	height:500px;
 	background-image:url("../images/ss/11.webp");
-	/*background-size: contain;*/
+	background-size: cover;
 	animation: slide 35s infinite;
 	/*animation-duration:40s;
 	animation-iteration-count: infinite;*/
@@ -29,20 +29,22 @@ body{
 	to{background-color: yellow	}*/
 	/*0%   {background-image:url("assets/images/furniture/1.jpg");}*/
 	25% {background:url("../images/ss/7.webp");
-	background-size: contain;}
+	background-size: cover;}
 	50% {background:url("../images/ss/8.webp");
-	background-size: contain;}
+	background-size: cover;}
 	75% {background:url("../images/ss/9.webp");
-	background-size: contain;}
+	background-size: cover;}
 	100% {background:url("../images/ss/10.webp");
-	background-size: contain;}
+	background-size: cover;}
 }
 
 /*Carousal Over*/
 
 
 /*Navigation*/
-
+.hid1{
+	display:none;
+}
 nav{
 	background: #333333;
 	/*background:#abc;*/
@@ -381,7 +383,7 @@ nav ul li:hover{
 	width:34%;
 	height:450px;
 	background-image:url("../images/clock/1.jpg");
-	background-size: contain;
+	background-size: cover;
 	animation: details 20s infinite;
 }
 @keyframes details{
@@ -389,13 +391,13 @@ nav ul li:hover{
 	to{background-color: yellow	}*/
 	/*0%   {background-image:url("assets/images/furniture/1.jpg");}*/
 	25% {background:url("../images/clock/2.jpg");
-	background-size: contain;}
+	background-size: cover;}
 	50% {background:url("../images/clock/5.jpg");
-	background-size: contain;}
+	background-size: cover;}
 	75% {background:url("../images/ss/14.jpg");
-	background-size: contain;}
+	background-size: cover;}
 	100% {background:url("../images/ss/15.jpg");
-	background-size: contain;}
+	background-size: cover;}
 }
 	.dress{
 		display:flex;
